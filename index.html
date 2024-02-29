@@ -62,20 +62,6 @@
             .tail {
                 height: 20px;
             }
-
-            #workflow {
-                background: rgb(255, 255, 255);
-                color: black;
-                opacity: 0.9;
-                width: 100vw;
-                height: 100vh;
-                position: absolute;
-                top: 0;
-                left: 0;
-                z-index: 100;
-                display: "";
-                text-align: center;
-            }
         </style>
 
         <script src="src/ace.js" type="text/javascript" charset="utf-8"></script>
@@ -84,18 +70,6 @@
     </head>
 
     <body>
-        <div id="workflow">
-            <h1>CircuitPython Online IDE</h1>
-            <p>Select a version to continue.</p>
-            <button onclick="window.open('../../index.html')">
-                <h2>Try the New Version</h2>
-            </button>
-            <br />
-            <button onClick='this.parentElement.style.display = "none"'>
-                <h4>Stay at the Current Version</h4>
-            </button>
-            <p>Spoiler: The new version is nicer and more powerful!</p>
-        </div>
         <div class="row">
             <div class="column head">
                 <h1 style="margin-top: 0pt">CircuitPython Online IDE</h1>
@@ -196,7 +170,7 @@ and the x-axis on the figure is going to be the index."
             </span>
             <span title="Documents and Source code of this IDE on Github">
                 <button
-                    onclick="window.open('https://github.com/urfdvw/CircuitPython-online-IDE#workflow-aka-how-to-use')"
+                    onclick="window.open('https://github.com/urfdvw/CircuitPython-online-IDE0#workflow-aka-how-to-use')"
                 >
                     IDE Help
                 </button>
@@ -210,16 +184,6 @@ and the x-axis on the figure is going to be the index."
             </span>
             <span title="开发环境的中文版本">
                 <button onclick="window.open('index_zh.html')">中文</button>
-            </span>
-            <span title="New version of this IDE">
-                <button onclick="window.open('https://urfdvw.github.io/CircuitPython-online-IDE/#')">
-                    New Version!
-                </button>
-            </span>
-            <span title="Download the IDE to use off line">
-                <button onclick="window.open('https://github.com/urfdvw/CircuitPython-online-IDE/releases/')">
-                    Download IDE
-                </button>
             </span>
             <span title="Click on this button will change the keyboard shortcut for sending command(s).">
                 <button id="send_setting" onclick="change_send_key();" style="float: right">[Enter] to send</button>

@@ -41,7 +41,7 @@ Or follow Twitter account [***River Wang***](https://twitter.com/River___Wang)
             - Plug and unplug the board
 - If there is not a `code.py` or `main.py` file, create a text file called `code.py`.
     - This file can be downloaded from our IDE by click on `Save as`
-- **Open the [CircuitPython online IDE](https://urfdvw.github.io/CircuitPython-online-IDE/). Then connect your CircuitPython supported board by click the `Connect` button**
+- **Open the [CircuitPython online IDE](https://urfdvw.github.io/CircuitPython-online-IDE0/). Then connect your CircuitPython supported board by click the `Connect` button**
 
 ### Script mode
 - Once plugin the CircuitPython supported board, the initial mode is 'Script mode' which will run the saved script file `code.py` or `main.py`.
